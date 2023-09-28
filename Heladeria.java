@@ -92,7 +92,7 @@ public class Heladeria {
         miHeladeria.abrir();
 
         // Aqui le solcitamosal usuario que ingrese los datos del helado a servir
-        scanner.nextLine(); // Limpiar el buffer de entrada
+        scanner.nextLine(); 
 
         System.out.print("Ingresa el nombre del cliente: ");
         String nombreCliente = scanner.nextLine();
